@@ -1,0 +1,39 @@
+.event-container {
+  display: flex;
+}
+
+.event-container-background {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+  background-color: #3a4b63;
+  height: 150vh;
+  background-size: cover;
+  padding: 0 30px;
+}
+
+.event-title-heading {
+  color: #fff;
+  font-size: 30px;
+  font-weight: 600;
+  margin-left: 45px;
+}
+
+.event-item-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: 0;
+}
+
+.vacent-container {
+  width: 40%;
+}
+
+.vacent-result-text {
+  text-align: center;
+  font-size: 30px;
+  color: #3a4b63;
+  padding-top: 60px;
+  margin: 0 30px;
+}
